@@ -1,0 +1,8 @@
+Oi monitor, aqui está as minhas dúvidas:
+
+-- Eu estou com dificuldade de abrir as paginas com o /slaOq
+
+-- A parte dos botões, tem arquivos que estão com pontos e outros não, qual é o certo
+
+-- eu troquei os ../ e troquei o ../ para css
+

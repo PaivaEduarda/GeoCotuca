@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2? family= Patrick+Hand & display=swap');
+#logo {
+    text-align: center;
+}
+
+#cabecalho1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+#lupinha{
+    position: absolute;
+}
+
+#lupa {
+    height: 45px;
+    margin: 20px;
+    padding-left: 148%;
+}
+#lupa2 {
+    height: 30px;
+    margin: 0;
+   
+}
+
+#searchBox1{
+    height: auto;
+    width: auto;
+}
+
+.searchBox
+{
+    height: 40px;
+    background:rgb(202, 149, 92);;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#searchTxt
+{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: rgb(218, 226, 182);
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    font-family: 'Patrick Hand', serif;
+
+}
+.searchBtn
+{
+    height: 40px;
+    border-radius: 800%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox:hover > #searchTxt
+{
+    width: 240px;
+    padding: 0 6px;
+
+}
+
+::-webkit-input-placeholder
+{
+    color: rgb(218, 226, 182);
+    font-family: 'Patrick Hand', serif;
+    font-size: 15px;
+}
+
+
+#indicacoes,
+#exercicios,
+#temas,
+#login,
+#videos {
+    height: 35px;
+    width: 35px;
+    border-top: 100px;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#cabecalho2 {
+    background-color: rgb(202, 149, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+#botoesCabecalho2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#counteiner
+{
+    height: 450px;
+    width: 370px;
+    background-color: rgb(218, 226, 182);
+    margin: auto;
+    border-radius: 50px;
+}
+#login2
+{
+    /*width: 80px;*/
+    height: 75px;
+    /*padding: 150px;
+    padding-top: 50px;*/
+}
+
+#imgLogin2{
+
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+name {
+    color: black;
+}
+#txt{
+    width: 100%;
+    justify-content: center;
+}
+
+#txtemailDiv, #txtsenhaDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#txtemail, #txtsenha{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    color: grey;
+    margin: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#btnSalvar{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#cadastro, #lbCadastro2
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#lbCadastro 
+{
+    color: grey;
+}
+
+/*cadastro*/
+#counteinerAcesso
+{
+    background-color: rgb(218, 226, 182);
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    border-radius: 50px;
+
+}
+#cabecalhoCadastro
+{
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#txtemailAcessoDiv, #txtsenhaAcessoDiv, #txtsenhaAcessoConfirmarDiv, #txtNomeDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+#txtemailAcesso, #txtsenhaAcesso, #txtsenhaAcessoConfirmar, #txtNome{
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    color: grey;
+    margin: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#btnSalvarAcesso{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+#btnAcesso{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#cadastroAcesso, #lbCadastroAcesso2
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#lbCadastroAcesso 
+{
+    color: grey;
+}
+
+
+#temasCountainer{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#temasCountainer2{
+    width: 80%;
+    height: 80%;
+}
+
+#temasCountainerLivro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center;*/
+}
+#linhaTemas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    justify-content: center;
+}
+#linhaTemasLviros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    justify-content: center;
+}
+#tema1
+{
+    width: fit-content;
+    border-radius: 10px;
+    margin: 25px;
+}
+#tema1Livro
+{
+    width: fit-content;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.imgTema1
+{
+    height: 150px;
+    width: 130px;
+    border-radius: 5px;
+}
+#DivImgTema1
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 176px;
+    height: 174px;
+
+    background-color:rgb(218, 226, 182) ;
+    border-radius: 5px;
+    /*width: fit-content;*/
+    
+}
+#DivImgTema1Livros
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color:rgb(218, 226, 182) ;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.lbTema1
+{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    color: black;
+    font-family: 'Patrick Hand', serif;
+}
+.DivLbTema1
+{
+    border-radius: 5px;
+    background-color:rgb(218, 226, 182) ;
+    text-align: center;
+    margin-top: 5px;
+    height: 30px;
+}
+#corpitcho, #corpitchoLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Patrick Hand', serif;
+}
+#corpo
+{
+    background-color: beige;
+    height: 1000px;
+    width: 70%;
+    margin-top: 20px;
+}
+#corpoLogin
+{
+    background-color: beige;
+    height: 580px;
+    width: 70%;
+    margin-top: 20px;
+}
+#titulo
+{
+    text-align: center;
+}
+.caracFont
+{
+    font-size: 10px;
+    text-align: center;
+}
+#Carac{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#imgCarac{
+    height: 30px;
+    width: 30px;
+}
+
+#tema1Carac
+{
+    width: 1000px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color:rgb(218, 226, 182) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#linhaTemas {
+    display: flex;
+    align-items: center;
+}
+
