@@ -6,3 +6,5 @@ Oi monitor, aqui está as minhas dúvidas:
 
 -- eu troquei os ../ e troquei o ../ para css
 
+Monitor:
+-- Pq tanto caos?!

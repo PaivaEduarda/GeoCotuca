@@ -1,10 +1,12 @@
 const express = require('express')
-const app = express();
-const rota = require('../src/routes/route')
+const path = require('path')
+const rota = require('./routes/site.router')
+const app = express()
 
-app.set('views', '../views')
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
+
+app.use('/public', express.static(path.resolve(__dirname, 'view')))
 app.use('/', rota)
 
 app.listen(8080, () => {
