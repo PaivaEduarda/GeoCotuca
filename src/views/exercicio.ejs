@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- IMPORTANTE: mudar os links para irem para as rotas, não os arquivos -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geo Cotuca</title>
-    <link rel="stylesheet" href="/public/css/styles/style.css">
-    <link rel="icon" href="/public/imagens/bookIcon.png">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="icon" href="imagens/bookIcon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,18 +30,19 @@
                     </a>
                 </div>
             </div>
-        </div>
+                    </div>
 
 
         <div id="cabecalho2">
-            <div id="botoesCabecalho2">
-                <a href="/Livros"><input type="image" id="indicacoes" src="/public/imagens/book.png" alt=""> </a>
+            <div id="botoesCabecalho2"> 
+                <a href="/livros"><input type="image" id="indicacoes" src="/public/imagens/book.png" alt=""> </a>
 
                 <a href="/exercicios"><input type="image" id="exercicios" src="/public/imagens/write.png" alt=""> </a>
 
                 <a href="/home"><input type="image" src="/public/imagens/topicos.png" id="temas" alt=""> </a>
 
-                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt=""> </a>
+                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt="">
+                </a>
 
                 <a href="/login"><input type="image" src="/public/imagens/login.png" id="login" alt=""></a>
             </div>
@@ -49,27 +50,19 @@
 
     </header>
     <section id="corpitcho">
-       
+
         <div id="corpo">
             <div id="titulo">
-                <h1>Recomendação de Livros</h1>
+                <h1><%= exercicio.title %></h1>
+                <img src="<%= exercicio.image %>" alt="relevo"/> 
+                <p><%= exercicio.questao1 %></p>
+                <p><%= exercicio.questao2 %></p>
+                <p><%= exercicio.questao3 %></p>
+                <p><%= exercicio.questao4 %></p>
+                <p><%= exercicio.questao5 %></p>
             </div>
-            <div id="temasCountainer">
-                <% for(dado of dados) { %>
-                <div id="tema1">
-                    <div id="DivImgTema1">
-                        <a href="/livro/<%= dado.link %>"><img src="<%= dado.image %>" class="lbTema1" alt="imagem de <%= dado.title %>"></a>
-                    </div>
-                    <div class="DivLbTema1">
-                        <a href="/livro/<%= dado.link %>" class="lbTema1"><%= dado.title %></a>
-                    </div>
-                </div>
-                <% } %>
-            </div>
-        </div>
+            <div id="temasCountainer"> </div>
     </section>
-
-
 </body>
 
 </html>

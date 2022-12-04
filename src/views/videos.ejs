@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geo Cotuca</title>
-    <link rel="stylesheet" href="/public/css/styles/style.css">
-    <link rel="icon" href="/public/imagens/bookIcon.png">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="icon" href="imagens/bookIcon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,8 @@
 
                 <a href="/home"><input type="image" src="/public/imagens/topicos.png" id="temas" alt=""> </a>
 
-                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt=""> </a>
+                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt="">
+                </a>
 
                 <a href="/login"><input type="image" src="/public/imagens/login.png" id="login" alt=""></a>
             </div>
@@ -49,27 +50,25 @@
 
     </header>
     <section id="corpitcho">
-       
+
         <div id="corpo">
             <div id="titulo">
-                <h1>Recomendação de Livros</h1>
+                <h1>Vídeos</h1>
             </div>
             <div id="temasCountainer">
                 <% for(dado of dados) { %>
                 <div id="tema1">
                     <div id="DivImgTema1">
-                        <a href="/livro/<%= dado.link %>"><img src="<%= dado.image %>" class="lbTema1" alt="imagem de <%= dado.title %>"></a>
+                        <a href="<%= dado.link %>"><img src="<%= dado.image %>" class="lbTema1" alt="imagem de <%= dado.title %>"></a>
                     </div>
                     <div class="DivLbTema1">
-                        <a href="/livro/<%= dado.link %>" class="lbTema1"><%= dado.title %></a>
+                        <a href="<%= dado.link %>" class="lbTema1"><%= dado.title %></a>
                     </div>
                 </div>
                 <% } %>
             </div>
         </div>
     </section>
-
-
 </body>
 
 </html>

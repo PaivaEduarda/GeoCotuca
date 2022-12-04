@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geo Cotuca</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/public/css/style.css">
     <link rel="icon" href="imagens/bookIcon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,13 +19,13 @@
     <header>
         <div id="cabecalho1">
             <div id="cabecalinho">
-                <img src="imagens/LOGO-removebg-preview.png" alt="" id="logo">
+                <img src="/public/imagens/LOGO-removebg-preview.png" alt="" id="logo">
             </div>
             <div id="searchBox1">
                 <div class="searchBox">
                     <input type="text" id="searchTxt" placeholder="Pesquisar..">
                     <a href="#" class="searchBar">
-                        <img src="imagens/lupa-removebg-preview-removebg-preview.png" class="searchBtn" alt="Lupa">
+                        <img src="/public/imagens/lupa-removebg-preview-removebg-preview.png" class="searchBtn" alt="Lupa">
 
                     </a>
                 </div>
@@ -35,16 +35,16 @@
 
         <div id="cabecalho2">
             <div id="botoesCabecalho2">
-                <a href="./Livros.html"><input type="image" id="indicacoes" src="imagens/book.png" alt=""> </a>
+                <a href="/Livros"><input type="image" id="indicacoes" src="/public/imagens/book.png" alt=""> </a>
 
-                <a href="./exercicios.html"><input type="image" id="exercicios" src="imagens/write.png" alt=""> </a>
+                <a href="/exercicios"><input type="image" id="exercicios" src="/public/imagens/write.png" alt=""> </a>
 
-                <a href="./home.html"><input type="image" src="imagens/topicos.png" id="temas" alt=""> </a>
+                <a href="/home"><input type="image" src="/public/imagens/topicos.png" id="temas" alt=""> </a>
 
-                <a href="./videos.html"><input type="image" src="imagens/marketing-de-video.png" id="videos" alt="">
+                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt="">
                 </a>
 
-                <a href="./login.html"><input type="image" src="imagens/login.png" id="login" alt=""></a>
+                <a href="/login"><input type="image" src="/public/imagens/login.png" id="login" alt=""></a>
             </div>
         </div>
 
@@ -56,11 +56,19 @@
                 <h1>Exercícios</h1>
             </div>
             <div id="temasCountainer">
-              
+                <% for(dado of dados) { %>
+                <div id="tema1">
+                    <div id="DivImgTema1">
+                        <a href="/exercicio/<%= dado.link %>"><img src="<%= dado.image %>" class="lbTema1" alt="imagem de <%= dado.title %>"></a>
+                    </div>
+                    <div class="DivLbTema1">
+                        <a href="/exercicio/<%= dado.link %>" class="lbTema1"><%= dado.title %></a>
+                    </div>
+                </div>
+                <% } %>
             </div>
         </div>
     </section>
-    <script src="scripts/exercicios.js"></script>
 </body>
 
 </html>

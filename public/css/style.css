@@ -346,6 +346,7 @@ name {
     width: 100%;
     display: flex;
     color: black;
+    text-decoration: none;
     font-family: 'Patrick Hand', serif;
 }
 .DivLbTema1
