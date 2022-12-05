@@ -1,14 +1,16 @@
 const { Schema, model } = require('mongoose')
 
-const TemaSchema = new Schema({
+const LivrosSchema = new Schema({
+    // ---- padrão ---- //
     image: String,
     link: String,
     title: String,
-    body: String,
-    livro: String,
-    qtdPaginas: String,
+    //------------------//
+    nome: String,
     autor: String,
-    
+    qtdPaginas: String,
+    dataLancamento: String,
+
 })
 
-module.exports = model('temas', TemaSchema)
+module.exports = model('livros', LivrosSchema)

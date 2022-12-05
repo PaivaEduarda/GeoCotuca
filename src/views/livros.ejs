@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geo Cotuca</title>
-    <link rel="stylesheet" href="/public/css/styles/style.css">
-    <link rel="icon" href="/public/imagens/bookIcon.png">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="icon" href="imagens/bookIcon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,13 +35,14 @@
 
         <div id="cabecalho2">
             <div id="botoesCabecalho2">
-                <a href="/Livros"><input type="image" id="indicacoes" src="/public/imagens/book.png" alt=""> </a>
+                <a href="/livros"><input type="image" id="indicacoes" src="/public/imagens/book.png" alt=""> </a>
 
                 <a href="/exercicios"><input type="image" id="exercicios" src="/public/imagens/write.png" alt=""> </a>
 
                 <a href="/home"><input type="image" src="/public/imagens/topicos.png" id="temas" alt=""> </a>
 
-                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt=""> </a>
+                <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt="">
+                </a>
 
                 <a href="/login"><input type="image" src="/public/imagens/login.png" id="login" alt=""></a>
             </div>
@@ -49,10 +50,10 @@
 
     </header>
     <section id="corpitcho">
-       
+
         <div id="corpo">
             <div id="titulo">
-                <h1>Recomendação de Livros</h1>
+                <h1>Livros</h1>
             </div>
             <div id="temasCountainer">
                 <% for(dado of dados) { %>
@@ -68,8 +69,6 @@
             </div>
         </div>
     </section>
-
-
 </body>
 
 </html>
