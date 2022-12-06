@@ -1,133 +1,148 @@
 [{
-  "_id": {
-    "$oid": "638ce8fe526a8dc6c121b67e"
-  },
   "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-queimadas-afetam-diretamente-solo-causam-poluicao-ar-586bb96644b4a.jpg",
   "link": "questoes-ambientais",
   "title": "Questões Ambientais",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  
+  "linkCompra":"https://www.amazon.com.br/Sustentabilidade-Ambiental-Uma-Quest%C3%A3o-Consci%C3%AAncia/dp/8516101304/ref=asc_df_8516101304/?tag=googleshopp00-20&linkCode=df0&hvadid=379733469043&hvpos=&hvnetw=g&hvrand=10443759107921176879&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-396828639961&psc=1",
+  "autor": "Paulo Henrique Bonacella",
+  "qtdPaginas": "248",
+  "dataLancamento": "2020",
+  "nome": "Sustentabilidade ambiental",
+  "imgLivro": "https://d8vlg9z1oftyc.cloudfront.net/freitasbastos/image/product/1efa45cdfd77cbea9929b309e2acdabe20220103223433/850/9788516101305_1653.jpg",
+
+  "linkCompra1":"https://www.editoradodireito.com.br/direito-ambiental-colecao-esquematizado-2022/p?idsku=790034&gclid=Cj0KCQiA7bucBhCeARIsAIOwr--DyywqZDYDZWyS7p_yXHkbBCxAjeQOEM5mlGYZVNjep_4M9r3BDeAaAqCsEALw_wcB",
+  "autor1": "Denise Maria Elisabeth Formaggia",
+  "qtdPaginas1": "248",
+  "dataLancamento1": "1 janeiro 2014",
+  "nome1": "Direito Ambiental",
+  "imgLivro1": "https://m.media-amazon.com/images/I/91TqqyU3qRL.jpg",
+  
+  "linkCompra2":"https://www.amazon.com.br/terra-inabit%C3%A1vel-Uma-hist%C3%B3ria-futuro/dp/8535932399/ref=asc_df_8535932399/?tag=googleshopp00-20&linkCode=df0&hvadid=379787533094&hvpos=&hvnetw=g&hvrand=6703522462599751763&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-809974247946&psc=1",
+  "autor2": "David Wallace-Wells",
+  "qtdPaginas2": "384",
+  "dataLancamento2": "5 julho 2019",
+  "nome2": "A terra inabitável: Uma história do futuro",
+  "imgLivro2": "https://m.media-amazon.com/images/I/71p3vH1T5bL.jpg"
 },{
-  "_id": {
-    "$oid": "638e36325df4cc234d4014ad"
-  },
-  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-queimadas-afetam-diretamente-solo-causam-poluicao-ar-586bb96644b4a.jpg",
-  "link": "questoes-ambientais",
-  "title": "Questões Ambientais",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  "image": "https://s4.static.brasilescola.uol.com.br/be/2022/04/ceifeira-trigo.jpg",
+  "link": "agropecuria",
+  "title": "Agropecúaria",
+  
+  "linkCompra":"https://www.amazon.com.br/Formacao-Politica-Agronegocio-Caio-Pompeia/dp/658723531X/ref=asc_df_658723531X/?tag=googleshopp00-20&linkCode=df0&hvadid=379736468109&hvpos=&hvnetw=g&hvrand=1211390498236482839&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-1404290736152&psc=1",
+  "autor": "Caio Pompeia",
+  "qtdPaginas": "15",
+  "dataLancamento": "2021",
+  "nome": "Formacao Politica Do Agronegocio",
+  "imgLivro": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9sxddg5hDD2kRvSe03KKmzlmwmT4Utl3KPs_0I94f3Ngx297O5fQysK56b-H-UujZnq9t0sF2FR8&usqp=CAc",
+
+  "linkCompra1":"https://www.amazon.com.br/Geografia-Brasil-Ariovaldo-Umbelino-Oliveira/dp/8531402425",
+  "autor1": "Jurandyr Ross",
+  "qtdPaginas1": "558",
+  "dataLancamento1": "1996",
+  "nome1": "Geografia do Brasil",
+  "imgLivro1": "https://books.google.com.br/books/content?id=V5xaWPTL_IYC&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2TqUI_WzwcD6_AbXdLokWYLi77Pw&w=1280",
+  
+  "linkCompra2":"https://www.amazon.com.br/Agrade%C3%A7a-aos-agrot%C3%B3xicos-estar-vivo/dp/8501110205/ref=asc_df_8501110205/?tag=googleshopp00-20&linkCode=df0&hvadid=379738286280&hvpos=&hvnetw=g&hvrand=3820022503828733400&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-395340051310&psc=1",
+  "autor2": "Nicholas Vital",
+  "qtdPaginas2": "252",
+  "dataLancamento2": "2017",
+  "nome2": "Agradeça aos agrotóxicos por estar vivo",
+  "imgLivro2": "hhttps://m.media-amazon.com/images/I/51CqLlEaojL._SX335_BO1,204,203,200_.jpg"
 },{
-  "_id": {
-    "$oid": "638e36375df4cc234d4014ae"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/o-relevo-expressao-superficial-litosfera-terrestre-56608b81d8712.jpg",
+  "link": "relevo",
+  "title": "Relevo",
+
+  "linkCompra":"https://www.amazon.com.br/Fundamentos-geografia-f%C3%ADsica-James-Petersen/dp/852211160X/ref=asc_df_852211160X/?tag=googleshopp00-20&linkCode=df0&hvadid=379787821352&hvpos=&hvnetw=g&hvrand=1706115271229223163&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-811737583618&psc=1",
+  "autor": "Wilson Teixeira ",
+  "qtdPaginas": "624",
+  "dataLancamento": "9 maio 2007",
+  "nome": "Decifrando a terra",
+  "imgLivro": "https://m.media-amazon.com/images/I/51foQsR5xUL._SX359_BO1,204,203,200_.jpg",
+
+  "linkCompra1":"https://www.amazon.com.br/Decifrando-Terra-Wilson-Teixeira/dp/8504014398/ref=asc_df_8504014398/?tag=googleshopp00-20&linkCode=df0&hvadid=379712804817&hvpos=&hvnetw=g&hvrand=6687813424847218867&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-423142303121&psc=1",
+  "autor1": " James Petersen",
+  "qtdPaginas1": "504",
+  "dataLancamento1": "16 junho 2014",
+  "nome1": "Fundamentos de geografia física",
+  "imgLivro1": "https://m.media-amazon.com/images/I/51foQsR5xUL._SX359_BO1,204,203,200_.jpg",
+
+  "linkCompra2":"https://www.amazon.com.br/Geomorfologia-Brasil-Sandra-Baptista-Cunha/dp/8528606708/ref=asc_df_8528606708/?tag=googleshopp00-20&linkCode=df0&hvadid=379787533094&hvpos=&hvnetw=g&hvrand=1706115271229223163&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001729&hvtargid=pla-394932362067&psc=1",
+  "autor2": " Antônio José Teixeira Guerra ",
+  "qtdPaginas2": "390",
+  "dataLancamento2": "1 outubro 1998",
+  "nome2": "Geomorfologia do Brasil",
+  "imgLivro2": "https://m.media-amazon.com/images/I/51foQsR5xUL._SX359_BO1,204,203,200_.jpg"
 },{
-  "_id": {
-    "$oid": "638e36605df4cc234d4014af"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
+  "image": "https://s2.static.brasilescola.uol.com.br/be/2022/04/comunicacao-rede-mundial.jpg",
+  "link": "globalizacao",
+  "title": "Globalização",
   "autor": "",
+  "qtdPaginas": "",
   "dataLancamento": "",
   "nome": "",
-  "qtdPaginas:": ""
+  "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e36635df4cc234d4014b0"
-  },
-  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-queimadas-afetam-diretamente-solo-causam-poluicao-ar-586bb96644b4a.jpg",
-  "link": "questoes-ambientais",
-  "title": "Questões Ambientais",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/urbanizacao.jpg",
+  "link": "urbanizacao",
+  "title": "Urbanização",
+   "autor": "",
+   "qtdPaginas": "",
+   "dataLancamento": "",
+   "nome": "",
+   "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e36655df4cc234d4014b1"
-  },
-  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-queimadas-afetam-diretamente-solo-causam-poluicao-ar-586bb96644b4a.jpg",
-  "link": "questoes-ambientais",
-  "title": "Questões Ambientais",
+  "image": "https://s4.static.brasilescola.uol.com.br/be/2020/03/eletricidade.jpg",
+  "link": "energia-eletrica",
+  "title": "Energia Elétrica",
   "autor": "",
+  "qtdPaginas": "",
   "dataLancamento": "",
   "nome": "",
-  "qtdPaginas:": ""
+  "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e36675df4cc234d4014b2"
-  },
-  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-queimadas-afetam-diretamente-solo-causam-poluicao-ar-586bb96644b4a.jpg",
-  "link": "questoes-ambientais",
-  "title": "Questões Ambientais",
+  "image": "https://s3.static.brasilescola.uol.com.br/be/2022/09/clima.jpg",
+  "link": "clima",
+  "title": "Clima",
   "autor": "",
+  "qtdPaginas": "",
   "dataLancamento": "",
   "nome": "",
-  "qtdPaginas:": ""
+  "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e367e5df4cc234d4014b3"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  "image": "https://s1.static.brasilescola.uol.com.br/be/e/hidrografia%20brasileira4.jpg",
+  "link": "hidrografia",
+  "title": "Hidrografia",
+   "autor": "",
+   "qtdPaginas": "",
+   "dataLancamento": "",
+   "nome": "",
+   "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e36835df4cc234d4014b4"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  "image": "https://s5.static.brasilescola.uol.com.br/be/2022/08/solo.jpg",
+  "link": "solos",
+  "title": "Solos",
+   "autor": "",
+   "qtdPaginas": "",
+   "dataLancamento": "",
+   "nome": "",        
+   "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e36875df4cc234d4014b5"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
+  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/a-geomorfologia-responsavel-por-estudar-dinamica-relevo-terrestre-55b670af556dd.jpg",
+  "link": "geomorfologia",
+  "title": "Geomorfologia",
   "autor": "",
+  "qtdPaginas": "",
   "dataLancamento": "",
   "nome": "",
-  "qtdPaginas:": ""
+  "imgLivro": ""
 },{
-  "_id": {
-    "$oid": "638e368c5df4cc234d4014b6"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
-},{
-  "_id": {
-    "$oid": "638e36995df4cc234d4014b7"
-  },
-  "image": "",
-  "link": "",
-  "title": "",
-  "autor": "",
-  "dataLancamento": "",
-  "nome": "",
-  "qtdPaginas:": ""
+  "image": "https://s5.static.brasilescola.uol.com.br/be/2021/09/demografia.jpg",
+  "link": "demografia",
+  "title": "Demografia",         
+  "autor": "",            
+  "qtdPaginas": "",            
+  "dataLancamento": "",            
+  "nome": "",            
+  "imgLivro": ""          
 }]

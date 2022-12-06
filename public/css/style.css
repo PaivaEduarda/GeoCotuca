@@ -272,6 +272,13 @@ name {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+#temasCountainer1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    
+
+}
 
 #temasCountainer2{
     width: 80%;
@@ -293,6 +300,12 @@ name {
     overflow-x: auto;
     justify-content: center;
 }
+#linhasTemas1 {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
 #linhaTemasLviros {
     width: 100%;
     display: flex;
@@ -305,12 +318,23 @@ name {
     width: fit-content;
     border-radius: 10px;
     margin: 25px;
+    display: flex;
+    align-items: center;
 }
 #tema1Livro
 {
     width: fit-content;
     border-radius: 10px;
     margin: 25px;
+}
+
+#carac2{
+    width: 75px;
+    margin: 3px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgTema1
@@ -368,7 +392,7 @@ name {
 #corpo
 {
     background-color: beige;
-    height: 1000px;
+    height:auto;
     width: 70%;
     margin-top: 20px;
 }
@@ -382,6 +406,7 @@ name {
 #titulo
 {
     text-align: center;
+    padding: 70px;
 }
 .caracFont
 {
@@ -400,17 +425,26 @@ name {
 
 #tema1Carac
 {
-    width: 1000px;
+    width: 100%;
     height: fit-content;
     border-radius: 10px;
     background-color:rgb(218, 226, 182) ;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 50px;
 }
-
 #linhaTemas {
     display: flex;
     align-items: center;
+}
+#linhasTemas1 {
+    display: flex;
+    align-items: center;
+}
+#bodyTemas{
+    font-family:monospace Arial, Helvetica, sans-serif;
+    text-align: justify;
+
 }
 

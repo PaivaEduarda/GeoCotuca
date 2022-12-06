@@ -1,20 +1,13 @@
 [{
-  "_id": {
-    "$oid": "638cd6ec526a8dc6c121b671"
-  },
   "image": "https://s2.static.brasilescola.uol.com.br/img/2019/11/urso-polar.jpg",
   "link": "questoes-climaticas",
-  "title": "Questões Climaticas",
-  "questao1": "Questão 1: As mudanças climáticas estão ocorrendo e já é possível notar algumas modificações que provavelmente relacionam-se com a ação do homem. Assim sendo, são necessárias ações urgentes para que nosso impacto no meio ambiente seja reduzido. Analise as alternativas abaixo e marque aquela que não indica uma forma de deter o avanço das mudanças climáticas.\n\na) Realizar técnicas na agricultura que evitam a emissão de carbono.\n\nb) Criar programas de reflorestamento, principalmente em áreas urbanas.\n\nc) Aumentar o uso de combustíveis fósseis.\n\nd) Realizar frequentemente a regulagem dos carros.\n\ne) Realizar consumo consciente.\n",
-  "questao2": "Questão 2: Muitas pessoas acreditam que as mudanças climáticas afetam exclusivamente a temperatura do planeta, que se torna mais quente. Entretanto, muitas vezes, essas pessoas esquecem que, ao aumentar a temperatura, uma série de organismos e ecossistemas são gravemente afetados. Observe as alternativas abaixo e marque a única que não é uma consequência da alteração da temperatura do planeta.\n\na) Diminuição da biodiversidade.\n\nb) Alterações do regime de chuvas.\n\nc) Secas prolongadas.\n\nd) Aumento da frequência de terremotos.\n\ne) Aumento de doenças respiratórias. ",
-  "questao3": "Questão 3: (Enem 2006) Com base em projeções realizadas por especialistas, prevê-se, para o fim do século XXI, aumento de temperatura média no planeta entre 1,4 ºC e 5,8 ºC. Como consequência desse aquecimento, possivelmente o clima será mais quente e mais úmido, bem como ocorrerão mais enchentes em algumas áreas e secas crônicas em outras. O aquecimento também provocará o desaparecimento de algumas geleiras, o que acarretará o aumento do nível dos oceanos e a inundação de certas áreas litorâneas.\n\nAs mudanças climáticas previstas para o fim do século XXI\n\na) provocarão a redução das taxas de evaporação e de condensação do ciclo da água.\n\nb) poderão interferir nos processos do ciclo da água que envolvem mudanças de estado físico.\n\nc) promoverão o aumento da disponibilidade de alimento das espécies marinhas.\n\nd) induzirão o aumento dos mananciais, o que solucionará os problemas de falta de água no planeta.\n\ne) causarão o aumento do volume de todos os cursos de água, o que minimizará os efeitos da poluição aquática. ",
-  "questao4": "Questão 4: O aquecimento global é considerado por inúmeros cientistas como um fenômeno provocado pelo homem em função do desequilíbrio causado no ciclo do carbono.\n\nConsiderando que esses cientistas estejam certos, é correto afirmar que:\n\na) Mecanismos que aumentam o sequestro de carbono por organismos autotróficos reduzem a disponibilidade do monóxido de carbono na atmosfera, contribuindo para a diminuição do efeito estufa.\n\nb) A liberação do gás carbônico na atmosfera em decorrência de atividades humanas, como a queima de combustíveis fósseis, é feita a uma velocidade muito maior do que sua assimilação pela fotossíntese.\n\nc) O aumento da concentração de gás carbônico na atmosfera está sendo provocado, principalmente, pela diminuição no sequestro do carbono pelos organismos fotossintetizantes.\n\nd) As queimadas florestais são a principal causa do aquecimento global.\n\ne) Os países pobres, em geral, contribuem mais para o aquecimento global que os países ricos.",
-  "questao5": "Questão 5: Nos últimos anos, um dos temas ambientais de maior destaque está no debate sobre o aquecimento do planeta Terra e nas mudanças climáticas globais. Analise as afirmativas abaixo e assinale a alternativa INCORRETA.\n\na) Além dos fatores internos ao planeta, com destaque para as consequências das ações humanas, fatores externos, como as explosões solares, influenciam no aumento da temperatura da Terra.\n\nb) Existem pesquisadores que discordam da teoria de que estamos vivendo uma mudança climática em virtude da ação antrópica, pois consideram que houve outros períodos de aquecimento e de resfriamento do planeta antes da existência do homem e de sua interferência na Terra.\n\nc) Além das florestas, os oceanos são fundamentais na regulação do clima no planeta, pois as plantas aquáticas são responsáveis pela absorção de CO2 da atmosfera. No entanto, a degradação ambiental de origem antrópica nos oceanos vem sendo intensa, reduzindo a vida marinha.\n\nd) Os relatórios do IPCC, composto por um grupo de pesquisadores que vem analisando o impacto das ações antrópicas sobre o clima, constituem-se na principal fonte de informações sobre o aquecimento global. O IPCC trabalha com projeções de cenários futuros e tais projeções vêm sendo consideradas exatas e acertadas por toda a comunidade científica."
+  "questao1": "Questão 1: As mudanças climáticas estão ocorrendo e já é possível notar algumas modificações que provavelmente relacionam-se com a ação do homem. Assim sendo, são necessárias ações urgentes para que nosso impacto no meio ambiente seja reduzido. Analise as alternativas abaixo e marque aquela que não indica uma forma de deter o avanço das mudanças climáticas.\n\n",
+  "questao2": "Questão 2: Muitas pessoas acreditam que as mudanças climáticas afetam exclusivamente a temperatura do planeta, que se torna mais quente. Entretanto, muitas vezes, essas pessoas esquecem que, ao aumentar a temperatura, uma série de organismos e ecossistemas são gravemente afetados. Observe as alternativas abaixo e marque a única que não é uma consequência da alteração da temperatura do planeta.\n\n",
+  "questao3": "Questão 3: (Enem 2006) Com base em projeções realizadas por especialistas, prevê-se, para o fim do século XXI, aumento de temperatura média no planeta entre 1,4 ºC e 5,8 ºC. Como consequência desse aquecimento, possivelmente o clima será mais quente e mais úmido, bem como ocorrerão mais enchentes em algumas áreas e secas crônicas em outras. O aquecimento também provocará o desaparecimento de algumas geleiras, o que acarretará o aumento do nível dos oceanos e a inundação de certas áreas litorâneas.\n\nAs mudanças climáticas previstas para o fim do século XXI\n\n",
+  "questao4": "Questão 4: O aquecimento global é considerado por inúmeros cientistas como um fenômeno provocado pelo homem em função do desequilíbrio causado no ciclo do carbono.\n\nConsiderando que esses cientistas estejam certos, é correto afirmar que:\n\n",
+  "title": "Questões Climaticas"
 },{
-  "_id": {
-    "$oid": "638e36fc5df4cc234d4014ba"
-  },
-  "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-florestas-sao-recursos-naturais-renovaveis-1319464465.jpg",
+  "image": "https://s2.static.brasilescola.uol.com.br/img/2019/11/urso-polar.jpg",
   "link": "recursos-naturais",
   "questao1": "",
   "questao2": "",
@@ -23,9 +16,6 @@
   "questao5": "",
   "title": "Recursos Naturais"
 },{
-  "_id": {
-    "$oid": "638e37015df4cc234d4014bb"
-  },
   "image": "https://s4.static.brasilescola.uol.com.br/be/2022/10/poluicao-do-ar.jpg",
   "link": "poluicao-do-ar",
   "questao1": "",
@@ -35,9 +25,6 @@
   "questao5": "",
   "title": "Poluição do ar"
 },{
-  "_id": {
-    "$oid": "638e37045df4cc234d4014bc"
-  },
   "image": "https://s4.static.brasilescola.uol.com.br/be/2022/04/ceifeira-trigo.jpg",
   "link": "agropecuria",
   "questao1": "",
@@ -47,9 +34,6 @@
   "questao5": "",
   "title": "Agropecúaria"
 },{
-  "_id": {
-    "$oid": "638e37075df4cc234d4014bd"
-  },
   "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/o-relevo-expressao-superficial-litosfera-terrestre-56608b81d8712.jpg",
   "link": "relevo",
   "questao1": "",
@@ -59,9 +43,6 @@
   "questao5": "",
   "title": "Relevo"
 },{
-  "_id": {
-    "$oid": "638e37095df4cc234d4014be"
-  },
   "image": "https://s2.static.brasilescola.uol.com.br/be/2022/04/comunicacao-rede-mundial.jpg",
   "link": "globalizacao",
   "questao1": "",
@@ -71,9 +52,6 @@
   "questao5": "",
   "title": "Globalização"
 },{
-  "_id": {
-    "$oid": "638e370c5df4cc234d4014bf"
-  },
   "image": "https://s3.static.brasilescola.uol.com.br/be/2022/09/clima.jpg",
   "link": "clima",
   "questao1": "",
@@ -83,9 +61,6 @@
   "questao5": "",
   "title": "Clima"
 },{
-  "_id": {
-    "$oid": "638e370e5df4cc234d4014c0"
-  },
   "image": "https://s1.static.brasilescola.uol.com.br/be/e/hidrografia%20brasileira4.jpg",
   "link": "hidrografia",
   "questao1": "",
@@ -95,9 +70,6 @@
   "questao5": "",
   "title": "Hidrografia"
 },{
-  "_id": {
-    "$oid": "638e37105df4cc234d4014c1"
-  },
   "image": "https://s5.static.brasilescola.uol.com.br/be/2022/08/solo.jpg",
   "link": "solos",
   "questao1": "",
@@ -107,9 +79,6 @@
   "questao5": "",
   "title": "Solos"
 },{
-  "_id": {
-    "$oid": "638e37135df4cc234d4014c2"
-  },
   "image": "https://s5.static.brasilescola.uol.com.br/be/2021/09/demografia.jpg",
   "link": "demografia",
   "questao1": "",
@@ -119,9 +88,6 @@
   "questao5": "",
   "title": "Demografia"
 },{
-  "_id": {
-    "$oid": "638e37155df4cc234d4014c3"
-  },
   "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/as-florestas-sao-recursos-naturais-renovaveis-1319464465.jpg",
   "link": "recursos-naturais",
   "questao1": "",
@@ -131,9 +97,6 @@
   "questao5": "",
   "title": "Recursos naturais"
 },{
-  "_id": {
-    "$oid": "638e37195df4cc234d4014c4"
-  },
   "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/urbanizacao.jpg",
   "link": "urbanizacao",
   "questao1": "",

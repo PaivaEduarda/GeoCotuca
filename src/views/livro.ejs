@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- IMPORTANTE: mudar os links para irem para as rotas, não os arquivos -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geo Cotuca</title>
     <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="icon" href="imagens/bookIcon.png">
+    <link rel="icon" href="/public/imagens/bookIcon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +26,8 @@
                 <div class="searchBox">
                     <input type="text" name="search" id="searchTxt" placeholder="Pesquisar...">
                     <button type="submit" class="searchBtn">
-                        <img src="/public/imagens/lupa-removebg-preview-removebg-preview.png" class="searchBtn" alt="Lupa">
+                        <img src="/public/imagens/lupa-removebg-preview-removebg-preview.png" class="searchBtn"
+                            alt="Lupa">
                     </button>
                 </div>
             </form>
@@ -33,7 +35,7 @@
 
 
         <div id="cabecalho2">
-            <div id="botoesCabecalho2"> 
+            <div id="botoesCabecalho2">
                 <a href="/livros"><input type="image" id="indicacoes" src="/public/imagens/book.png" alt=""> </a>
 
                 <a href="/exercicios"><input type="image" id="exercicios" src="/public/imagens/write.png" alt=""> </a>
@@ -42,22 +44,140 @@
 
                 <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt="">
                 </a>
-        </div>
+            </div>
 
     </header>
     <section id="corpitcho">
 
         <div id="corpo">
             <div id="titulo">
-                <h1><%= livro.title %></h1>
-                <img src="<%= livro.image %>" alt="relevo"/> 
-                <p><%= livro.questao1 %></p>
-                <p><%= livro.questao2 %></p>
-                <p><%= livro.questao3 %></p>
-                <p><%= livro.questao4 %></p>
-                <p><%= livro.questao5 %></p>
+                <h1>
+                    <%= livro.title %>
+                </h1>
             </div>
-            <div id="temasCountainer"> </div>
+
+       
+        <div id="temasCountainer1">
+            <div id="linhasTemas1">
+                <div id="tema1">
+                    <div id="divImgTema1">
+
+                        <a href="<%=livro.linkCompra1%>"><img src="<%=livro.imgLivro%>" alt="relevo"
+                                class="imgTema1" /></a>
+                    </div>
+                
+                <div id="tema1Carac">
+                    <div id="carac2">
+                        <h3 class="caracFont"> N° de páginas </h3>
+                        <div class="carac"><img src="/public/imagens/documento.png" id="imgCarac" alt=""></div>
+                        <h3 class="caracFont">
+                            <%=livro.qtdPaginas%>
+                        </h3>
+
+                    </div>
+                    <div id="carac2">
+                        <h3 class="caracFont"> Autor </h3>
+                        <div class="carac"><img src="/public/imagens/login.png" id="imgCarac" alt=""></div>
+                        <h3 class="caracFont">
+                            <%=livro.autor%>
+                        </h3>
+
+                    </div>
+                    <div id="carac2">
+                        <h3 class="caracFont"> Data de lançamento: </h3>
+                        <div class="carac"><img src="/public/imagens/calendario.png" id="imgCarac" alt=""></div>
+                        <h3 class="caracFont">
+                            <%=livro.qtdPaginas%>
+                        </h3>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+
+                <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+                <!-- linha temas 2 -->
+                <div id="linhasTemas1">
+                    <div id="tema1">
+                        <div id="divImgTema1">
+
+                            <a href="<%=livro.linkCompra1%>"><img src="<%=livro.imgLivro1%>" alt="relevo"
+                                    class="imgTema1" /></a>
+                        </div>
+                    
+                    <div id="tema1Carac">
+                        <div id="carac2">
+                            <h3 class="caracFont"> N° de páginas </h3>
+                            <div class="carac"><img src="/public/imagens/documento.png" id="imgCarac" alt=""></div>
+                            <h3 class="caracFont">
+                                <%=livro.qtdPaginas1%>
+                            </h3>
+
+                        </div>
+                        <div id="carac2">
+                            <h3 class="caracFont"> Autor </h3>
+                            <div class="carac"><img src="/public/imagens/login.png" id="imgCarac" alt=""></div>
+                            <h3 class="caracFont">
+                                <%=livro.autor1%>
+                            </h3>
+
+                        </div>
+                        <div id="carac2">
+                            <h3 class="caracFont"> Data de lançamento: </h3>
+                            <div class="carac"><img src="/public/imagens/calendario.png" id="imgCarac" alt=""></div>
+                            <h3 class="caracFont">
+                                <%=livro.qtdPaginas1%>
+                            </h3>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    <!-- /////////////////////////////////////////////////////////////////////////////////////////////// -->
+                    <!-- linha temas 3 -->
+                    <div id="linhasTemas1">
+                        <div id="tema1">
+                            <div id="divImgTema1">
+    
+                                <a href="<%=livro.linkCompra1%>"><img src="<%=livro.imgLivro2%>" alt="relevo"
+                                        class="imgTema1" /></a>
+                            </div>
+                        
+                        <div id="tema1Carac">
+                            <div id="carac2">
+                                <h3 class="caracFont"> N° de páginas </h3>
+                                <div class="carac"><img src="/public/imagens/documento.png" id="imgCarac" alt=""></div>
+                                <h3 class="caracFont">
+                                    <%=livro.qtdPaginas2%>
+                                </h3>
+    
+                            </div>
+                            <div id="carac2">
+                                <h3 class="caracFont"> Autor </h3>
+                                <div class="carac"><img src="/public/imagens/login.png" id="imgCarac" alt=""></div>
+                                <h3 class="caracFont">
+                                    <%=livro.autor2%>
+                                </h3>
+    
+                            </div>
+                            <div id="carac2">
+                                <h3 class="caracFont"> Data de lançamento: </h3>
+                                <div class="carac"><img src="/public/imagens/calendario.png" id="imgCarac" alt=""></div>
+                                <h3 class="caracFont">
+                                    <%=livro.qtdPaginas2%>
+                                </h3>
+    
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+         </div>
     </section>
 </body>
 
