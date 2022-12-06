@@ -318,6 +318,12 @@ name {
     width: fit-content;
     border-radius: 10px;
     margin: 25px;
+}
+#tema1Livro
+{
+    width: fit-content;
+    border-radius: 10px;
+    margin: 25px;
     display: flex;
     align-items: center;
 }
@@ -396,6 +402,10 @@ name {
     width: 70%;
     margin-top: 20px;
 }
+#cabec{
+    text-align: center;
+
+}
 #corpoLogin
 {
     background-color: beige;
@@ -406,7 +416,10 @@ name {
 #titulo
 {
     text-align: center;
-    padding: 70px;
+    margin-left: 50px;
+    margin-right: 20px;
+    justify-content: center;
+    display: flex;
 }
 .caracFont
 {
@@ -442,9 +455,9 @@ name {
     display: flex;
     align-items: center;
 }
-#bodyTemas{
+#bodyTemas, #bodyExercicio{
     font-family:monospace Arial, Helvetica, sans-serif;
     text-align: justify;
-
+    padding: 20px;
 }
 

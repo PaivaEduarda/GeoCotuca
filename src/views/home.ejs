@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- IMPORTANTE: mudar os links para irem para as rotas, não os arquivos -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +26,8 @@
                 <div class="searchBox">
                     <input type="text" name="search" id="searchTxt" placeholder="Pesquisar...">
                     <button type="submit" class="searchBtn">
-                        <img src="/public/imagens/lupa-removebg-preview-removebg-preview.png" class="searchBtn" alt="Lupa">
+                        <img src="/public/imagens/lupa-removebg-preview-removebg-preview.png" class="searchBtn"
+                            alt="Lupa">
                     </button>
                 </div>
             </form>
@@ -42,28 +44,31 @@
 
                 <a href="/videos"><input type="image" src="/public/imagens/marketing-de-video.png" id="videos" alt="">
                 </a>
-        </div>
+            </div>
 
     </header>
     <section id="corpitcho">
-
-        <div id="corpo">
-            <div id="titulo">
-                <h1>Temas</h1>
-            </div>
-            <div id="temasCountainer">
-                <% for(dado of dados) { %>
-                <div id="tema1">
-                    <div id="DivImgTema1">
-                        <a href="/tema/<%= dado.link %>"><img src="<%= dado.image %>" class="lbTema1" alt="imagem de <%= dado.title %>"></a>
-                    </div>
-                    <div class="DivLbTema1">
-                        <a href="/tema/<%= dado.link %>" class="lbTema1"><%= dado.title %></a>
-                    </div>
+            <div id="corpo">
+                <div id="titulo">
+                    <h1>Temas</h1>
                 </div>
-                <% } %>
+                <div id="temasCountainer">
+                    <% for(dado of dados) { %>
+                        <div id="tema1">
+                            <div id="DivImgTema1">
+                                <a href="/tema/<%= dado.link %>"><img src="<%= dado.image %>" class="lbTema1"
+                                        alt="imagem de <%= dado.title %>"></a>
+                            </div>
+                            <div class="DivLbTema1">
+                                <a href="/tema/<%= dado.link %>" class="lbTema1">
+                                    <%= dado.title %>
+                                </a>
+                            </div>
+                        </div>
+                        <% } %>
+                </div>
             </div>
-        </div>
     </section>
 </body>
+
 </html>
